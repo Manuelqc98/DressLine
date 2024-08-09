@@ -1,3 +1,3 @@
 # DressLine
 
-Quiero programar y diseñar páginas web
+Quiero programar y diseñar páginas web.
