@@ -52,20 +52,27 @@ header nav ul {
 .container {
     display: grid;
     justify-items: center;
-    grid-template-columns: repeat(auto-fill, minmax(600px, 1fr));
-    margin: 60px, 28px;
+    grid-template-columns: repeat(auto-fill, minmax(500px, 1fr));
 }
 .tarjeta {
     width: 450.67px;
     height: 539px;
     display: flex;
     flex-direction: column;
+    gap: 20px;
+    padding: 80px;
+}
+
+.tarjeta__container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
     gap: 16px;
-    padding: 60px;
 }
 
 .tarjeta__container__price {
     size: 18px;
+    font-weight: 700;
 }
 
 .tarjeta__img {
@@ -86,4 +93,51 @@ header nav ul {
 .tarjeta__descripcion {
     font-size: 12px;
     opacity: .6;
+}
+
+.categorias {
+    display: grid;
+    justify-items: center;
+    grid-template-columns: repeat(auto-fill, minmax(500px, 1fr));
+
+    display: flex;
+    flex-direction: column;
+    background-image: url(/assets/section.jpg);
+    background-size: cover;
+    height: 659px;
+    padding: 27px 60px;
+    gap: 44px;
+    align-items: center;
+}
+
+.categorias__titulo {
+    font-size: 56px;
+    font-weight: 800;
+    color: white;
+}
+
+.categorias__tarjetas {
+    display: flex;
+    gap: 60px;
+    justify-content: space-between;
+}
+
+.categorias__tarjetas__componente {
+    height: 493px;
+    width: 450.67px;
+    align-items: center;
+}
+
+.categorias__tarjetas__img {
+    border-radius: 10px;
+    width: 100%;
+}
+
+.categorias__tarjetas__titulo {
+    color: white;
+    font-size: 36px;
+    font-weight: 500;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
