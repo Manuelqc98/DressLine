@@ -54,6 +54,7 @@ header nav ul {
     justify-items: center;
     grid-template-columns: repeat(auto-fill, minmax(500px, 1fr));
 }
+
 .tarjeta {
     width: 450.67px;
     height: 539px;
@@ -81,8 +82,8 @@ header nav ul {
 
 .tarjeta__container {
     display: flex;
-    justify-content: space-between;
     align-items: center;
+    justify-content: space-between;
     gap: 16px;
 }
 
@@ -140,4 +141,21 @@ header nav ul {
     display: flex;
     align-items: center;
     justify-content: center;
+}
+
+footer {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 60px 43px;
+}
+
+.contenido {
+    font-size: 19px;
+    font-weight: bold;
+}
+
+.contenido__titulo {
+    font-size: 24px;
+    font-weight: bold;
 }
