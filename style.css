@@ -48,9 +48,11 @@ header nav ul {
 }
 
 .container {
-    display: grid;
-    justify-items: center;
-    grid-template-columns: repeat(auto-fill, minmax(500px, 1fr));
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    padding: 30px 0px;
 }
 
 .tarjeta {
@@ -59,7 +61,7 @@ header nav ul {
     display: flex;
     flex-direction: column;
     gap: 20px;
-    padding: 80px;
+    padding: 60px;
 }
 
 .tarjeta__container {
@@ -151,16 +153,33 @@ footer {
 .contenido__titulo {
     font-size: 24px;
     font-weight: bold;
+    display: flex;
+    justify-content: start;
 }
 
 .contenido {
     font-size: 19px;
     font-weight: bold;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
 }
 
 .contenido__li {
     font-size: 16px;
     font-weight: lighter;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
+
+.contenido__img {
+    display: flex;
+    gap: 6px;
 }
 
 
