@@ -1,7 +1,5 @@
 * {
-    font-size: 16px;
     font-family: "Inter",'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    font-weight: 400;
 
     margin: unset;
     padding: unset;
@@ -50,17 +48,20 @@ header nav ul {
 }
 
 .container {
-    display: grid;
-    justify-items: center;
-    grid-template-columns: repeat(auto-fill, minmax(500px, 1fr));
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    padding: 30px 0px;
 }
+
 .tarjeta {
     width: 450.67px;
     height: 539px;
     display: flex;
     flex-direction: column;
     gap: 20px;
-    padding: 80px;
+    padding: 60px;
 }
 
 .tarjeta__container {
@@ -81,8 +82,8 @@ header nav ul {
 
 .tarjeta__container {
     display: flex;
-    justify-content: space-between;
     align-items: center;
+    justify-content: space-between;
     gap: 16px;
 }
 
@@ -105,8 +106,7 @@ header nav ul {
     background-image: url(/assets/section.jpg);
     background-size: cover;
     height: 659px;
-    padding: 27px 60px;
-    gap: 44px;
+    gap: 55px;
     align-items: center;
 }
 
@@ -118,7 +118,7 @@ header nav ul {
 
 .categorias__tarjetas {
     display: flex;
-    gap: 60px;
+    gap: 90px;
     justify-content: space-between;
 }
 
@@ -141,3 +141,45 @@ header nav ul {
     align-items: center;
     justify-content: center;
 }
+
+footer {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 60px 43px;
+    gap: 27px;
+}
+
+.contenido__titulo {
+    font-size: 24px;
+    font-weight: bold;
+    display: flex;
+    justify-content: start;
+}
+
+.contenido {
+    font-size: 19px;
+    font-weight: bold;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
+
+.contenido__li {
+    font-size: 16px;
+    font-weight: lighter;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
+
+.contenido__img {
+    display: flex;
+    gap: 6px;
+}
+
+
