@@ -123,8 +123,6 @@ header nav ul {
 }
 
 .categorias__tarjetas__componente {
-    height: 493px;
-    width: 450.67px;
     align-items: center;
 }
 
@@ -146,8 +144,8 @@ footer {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 60px 43px;
-    gap: 27px;
+    padding: 43px 60px;
+    gap: 40px;
 }
 
 .contenido__titulo {
