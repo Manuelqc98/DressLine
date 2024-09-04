@@ -1,11 +1,243 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
+
+<!-- Metadatos de la páina -->
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="keywords"
+        content="moda, vestir, outfit, colección, nuevo, tendencia, descuento, hombre, deportivo, estilo">
+
+    <meta name="description"
+        content="Renueva tu armario con las últimas tendencias en moda masculina. Nuestra selección cuidadosamente curada te ayudará a crear looks modernos y sofisticados para cualquier ocasión">
+
+    <link rel="shortcut icon" href="/assets/Vector.svg" type="image/x-icon">
+
+    <title>DressLine</title>
+    <link rel="stylesheet" href="/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap"
+        rel="stylesheet">
 </head>
+
+<!-- Body tiene el contenido visual -->
+
 <body>
-    
+
+    <header>
+        <nav>
+
+            <img src="/assets/Vector.svg" alt="Icono de la pagina">
+
+            <ul>
+                <li>Inicio</li>
+                <li>Servicios</li>
+                <li>Nuestra Sede</li>
+                <li>Sobre Nosotros</li>
+            </ul>
+
+            <button>Contáctanos</button>
+
+
+        </nav>
+    </header>
+
+
+    <main>
+        <!-- jumbotron -->
+        <section class="jumbotron">
+
+            <div>
+                <h1>
+                    DressLine
+                </h1>
+                <p>
+                    Vestirse bien es sentirse bien
+                </p>
+
+        </section>
+
+        <!--Tarjeta de productos -->
+        <!-- Tarjeta nro 1 -->
+        <section class="container">
+
+            <div class="tarjeta">
+                <img src="assets/img.jpg" alt="" class="tarjeta__img">
+                <!-- estrellas y precio -->
+                <div class="tarjeta__container">
+                    <div><img src="assets/img.svg" alt="">
+                        <img src="assets/img.svg" alt="">
+                        <img src="assets/img.svg" alt="">
+                        <img src="assets/img.svg" alt="">
+                        <img src="assets/img.svg" alt="">
+                    </div>
+
+                    <p class="tarjeta__container__price">
+                        10$
+                    </p>
+                </div>
+                <!-- titulo y descripcion -->
+                <h3 class="tarjeta__titulo">
+                    Sudadera clásica
+                </h3>
+
+                <p class="tarjeta__descripcion">
+                    Sudadera para caballero
+                </p>
+
+                <div class="tarjeta__container">
+                    <select name="" id="">
+                        <option value="1">1</option>
+                        <option value="2">2</option>
+                        <option value="3">3</option>
+                    </select>
+                    <button>ADD TO CART</button>
+                </div>
+
+            </div>
+            <!-- tarjeta nro 2 -->
+            <div class="tarjeta">
+                <img src="assets/img (1).jpg" alt="" class="tarjeta__img">
+                <!-- estrellas y precio -->
+                <div class="tarjeta__container">
+                    <div><img src="assets/img.svg" alt="">
+                        <img src="assets/img.svg" alt="">
+                        <img src="assets/img.svg" alt="">
+                        <img src="assets/img.svg" alt="">
+                        <img src="assets/img.svg" alt="">
+                    </div>
+
+                    <p class="tarjeta__container__price">
+                        8$
+                    </p>
+                </div>
+                <!-- titulo y descripcion -->
+                <h3 class="tarjeta__titulo">
+                    Franela Legendary
+                </h3>
+
+                <p class="tarjeta__descripcion">
+                    T-Shirt
+                </p>
+
+                <div class="tarjeta__container">
+                    <select name="" id="">
+                        <option value="1">1</option>
+                        <option value="2">2</option>
+                        <option value="3">3</option>
+                    </select>
+                    <button>ADD TO CART</button>
+                </div>
+            </div>
+            <!-- tarjeta nro 3 -->
+            <div class="tarjeta">
+                <img src="assets/img (2).jpg" alt="" class="tarjeta__img">
+                <!-- estrellas y precio -->
+                <div class="tarjeta__container">
+                    <div><img src="assets/img.svg" alt="">
+                        <img src="assets/img.svg" alt="">
+                        <img src="assets/img.svg" alt="">
+                        <img src="assets/img.svg" alt="">
+                        <img src="assets/img.svg" alt="">
+                    </div>
+
+                    <p class="tarjeta__container__price">
+                        15$
+                    </p>
+                </div>
+                <!-- titulo y descripcion -->
+                <h3 class="tarjeta__titulo">
+                    Zapatos Nike
+                </h3>
+
+                <p class="tarjeta__descripcion">
+                    Zapatos para caballeros
+                </p>
+
+                <div class="tarjeta__container">
+                    <select name="" id="">
+                        <option value="1">1</option>
+                        <option value="2">2</option>
+                        <option value="3">3</option>
+                    </select>
+                    <button>ADD TO CART</button>
+                </div>
+            </div>
+
+        </section>
+
+        <!-- Categorias -->
+        <section class="categorias">
+
+            <h2 class="categorias__titulo">
+                Categorias
+            </h2>
+
+            <!-- Catergorias Zapatos -->
+            <div class="categorias__tarjetas">
+                <div class="categorias__tarjetas__componente">
+                    <img src="assets/Zapatos.jpg" alt="" class="categorias__tarjetas__img">
+                    <h3 class="categorias__tarjetas__titulo">Zapatos</h3>
+                </div>
+                <!-- Categorias Jeans -->
+                <div class="categorias__tarjetas__componente">
+                    <img src="assets/Jeans.jpg" alt="" class="categorias__tarjetas__img">
+                    <h3 class="categorias__tarjetas__titulo">Jeans</h3>
+                </div>
+                <!-- Categorias Sudaderas -->
+                <div class="categorias__tarjetas__componente">
+                    <img src="assets/Sudaderas.jpg" alt="" class="categorias__tarjetas__img">
+                    <h3 class="categorias__tarjetas__titulo">Sudaderas</h3>
+                </div>
+            </div>
+
+        </section>
+
+    </main>
+
+    <!-- Footer -->
+    <footer>
+        <!-- Ayuda -->
+        <ul> Ayuda
+            <li>Devoluciones</li>
+            <li>Información de envío</li>
+            <li>Atención al cliente</li>
+        </ul>
+        <!-- Productos -->
+        <ul> Productos
+            <li>Descuentos</li>
+            <li>Más vendidos</li>
+            <li>Guía de tallas</li>
+        </ul>
+        <!-- Pagos -->
+        <ul> Pagos
+            <li>Métodos de Pagos</li>
+            <li>Cómo comprar</li>
+            <li>Reembolso</li>
+        </ul>
+        <!-- Siguenos -->
+        <ul>
+            <li>Siguenos
+                <div><img src="assets/Facebook.svg" alt=""></div>
+                <div><img src="assets/Instagram.svg" alt=""></div>
+                <div><img src="assets/twitter.svg" alt=""></div>
+            </li>
+        </ul>
+        <!-- Nombre y descripción -->
+        <div>
+            <h4>DressLine</h4>
+            <img src="assets/Linea.svg" alt="">
+            <p>Exprésate con tu ropa, nosotros te ayudamos a crear tu propio estilo.</p>
+        </div>
+
+    </footer>
+
+
 </body>
+
 </html>
