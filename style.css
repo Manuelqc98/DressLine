@@ -135,9 +135,9 @@ header nav ul {
 }
 
 .categorias__tarjetas {
-    display: flex;
-    gap: 20px;
-    justify-content: space-between;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 25px;
 }
 
 .categorias__tarjetas__componente {
@@ -147,21 +147,10 @@ header nav ul {
    justify-content: space-between;
 }
 
-.categorias__tarjetas__img1 {
+.categorias__tarjetas__img {
     border-radius: 10px;
-    width: 100%;
-}   
-
-.categorias__tarjetas__img2 {
-    border-radius: 10px;
-    width: 100%;    
+    max-width: 100%;
 }
-
-.categorias__tarjetas__img3 {
-    border-radius: 10px;
-    width: 100%;    
-}
-
 
 .categorias__tarjetas__titulo {
     color: white;
