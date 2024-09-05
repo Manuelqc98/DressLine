@@ -52,7 +52,7 @@ header nav ul {
     justify-content: center;
     align-items: center;
     gap: 20px;
-    padding: 30px 0px;
+    margin: 28px 60px;
 }
 
 .tarjeta {
@@ -61,7 +61,10 @@ header nav ul {
     display: flex;
     flex-direction: column;
     gap: 20px;
-    padding: 60px;
+    padding: 15px 15px 15px 15px;
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 10px 10px rgba(170, 166, 166, 0.185);
 }
 
 .tarjeta__container {
@@ -78,6 +81,7 @@ header nav ul {
 
 .tarjeta__img {
     width: 100%;
+
 }
 
 .tarjeta__container {
@@ -96,6 +100,21 @@ header nav ul {
     opacity: .6;
 }
 
+.boton__add {
+    padding: 3px 3px 3px 3px;
+    background-color: #000000;
+    color: white;
+    font-size: 12px;
+    font-weight: bold;
+    border-radius: 5px;
+}
+
+.boton__number {
+    background-color: rgba(179, 172, 172, 0.199);
+    border-radius: 5px;
+    font-weight: 400;
+}
+
 .categorias {
     display: grid;
     justify-items: center;
@@ -103,39 +122,34 @@ header nav ul {
 
     display: flex;
     flex-direction: column;
+    align-items: center;
     background-image: url(/assets/section.jpg);
     background-size: cover;
-    height: 659px;
+    height: 580px;
     gap: 55px;
-    align-items: center;
+    padding: 27px 60px;
 }
 
 .categorias__titulo {
     font-size: 56px;
-    font-weight: 800;
+    font-weight: 600;
     color: white;
 }
 
 .categorias__tarjetas {
-    display: flex;
-    gap: 90px;
-    justify-content: space-between;
-}
-
-.categorias__tarjetas__componente {
-    height: 493px;
-    width: 450.67px;
-    align-items: center;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 25px;
 }
 
 .categorias__tarjetas__img {
     border-radius: 10px;
-    width: 100%;
+    max-width: 100%;
 }
 
 .categorias__tarjetas__titulo {
     color: white;
-    font-size: 36px;
+    font-size: 32px;
     font-weight: 500;
     display: flex;
     align-items: center;
@@ -146,21 +160,14 @@ footer {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 60px 43px;
-    gap: 27px;
+    padding: 30px 40px;
 }
 
-.contenido__titulo {
-    font-size: 24px;
-    font-weight: bold;
-    display: flex;
-    justify-content: start;
-}
 
 .contenido {
     font-size: 19px;
     font-weight: bold;
-
+    
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -170,7 +177,7 @@ footer {
 .contenido__li {
     font-size: 16px;
     font-weight: lighter;
-
+    
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -182,4 +189,10 @@ footer {
     gap: 6px;
 }
 
+.contenido__titulo {
+    font-size: 24px;
+    font-weight: bold;
+    display: flex;
+    justify-content: start;
+}
 
