@@ -62,8 +62,9 @@ header nav ul {
     flex-direction: column;
     gap: 20px;
     padding: 15px 15px 15px 15px;
-    background-color: whitesmoke;
+    background-color: white;
     border-radius: 10px;
+    box-shadow: 10px 10px rgba(170, 166, 166, 0.185);
 }
 
 .tarjeta__container {
@@ -80,6 +81,7 @@ header nav ul {
 
 .tarjeta__img {
     width: 100%;
+
 }
 
 .tarjeta__container {
