@@ -62,7 +62,7 @@ header nav ul {
     flex-direction: column;
     gap: 20px;
     padding: 15px 15px 15px 15px;
-    background-color: white;
+    background-color: #ffffff;
     border-radius: 10px;
     box-shadow: 10px 10px rgba(170, 166, 166, 0.185);
 }
@@ -142,13 +142,6 @@ header nav ul {
     gap: 25px;
 }
 
-.categorias__tarjetas__componente {
-   display: flex;
-   flex-direction: column;
-   align-items: center;
-   justify-content: space-between;
-}
-
 .categorias__tarjetas__img {
     border-radius: 10px;
     max-width: 100%;
@@ -156,7 +149,7 @@ header nav ul {
 
 .categorias__tarjetas__titulo {
     color: white;
-    font-size: 36px;
+    font-size: 32px;
     font-weight: 500;
     display: flex;
     align-items: center;
@@ -167,8 +160,7 @@ footer {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 43px 60px;
-    gap: 40px;
+    padding: 30px 40px;
 }
 
 
@@ -179,7 +171,7 @@ footer {
     display: flex;
     flex-direction: column;
     align-items: center;
-    gap: 30px;
+    gap: 10px;
 }
 
 .contenido__li {
