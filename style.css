@@ -156,6 +156,7 @@ header nav ul {
     justify-content: center;
 }
 
+
 footer {
     display: flex;
     align-items: center;
@@ -189,6 +190,11 @@ footer {
     gap: 6px;
 }
 
+.contenido__img img{
+    height: 32px;
+}
+
+
 .contenido__titulo {
     font-size: 24px;
     font-weight: bold;
@@ -196,3 +202,40 @@ footer {
     justify-content: start;
 }
 
+.categorias__tarjetas__componente {
+    height: 320px;
+    width: 320px;
+    overflow: hidden;
+    border-radius: 10px;
+    background-image: linear-gradient(65deg, rgba(0,0,0,0.178), rgba(0,0,0,0.062));
+    background-size: cover;
+    background-position: center;
+
+    transition: background-image 1s ease-in, background 1s ease-in;
+    -webkit-transition: background-image 1s ease-in;
+
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+}
+
+.categorias__tarjetas__componente.tarjeta-1 {
+    background-image: url('/assets/Zapatos.jpg');
+}
+.categorias__tarjetas__componente.tarjeta-1:hover {
+    background-image: url('/assets/zapatos.2.jpg');
+}
+
+.categorias__tarjetas__componente.tarjeta-2 {
+    background-image: url('/assets/Jeans.jpg');
+}
+.categorias__tarjetas__componente.tarjeta-2:hover {
+    background-image: url('/assets/jeans.2.jpg');
+}
+
+.categorias__tarjetas__componente.tarjeta-3 {
+    background-image: url('/assets/Sudaderas.jpg');
+}
+.categorias__tarjetas__componente.tarjeta-3:hover {
+    background-image: url('/assets/sudadera.2.jpg');
+}
